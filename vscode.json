@@ -1,0 +1,50 @@
+{
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "vscode-icons",
+  "breadcrumbs.enabled": true,
+  "zenMode.hideStatusBar": false,
+  // editor settings
+  "editor.fontFamily": "'Operator Mono Light', Inconsolata, monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  // which files to exclude
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  // language specific settings
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.formatOnSave": false
+  },
+  "[javascriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescriptreact]": {
+    "editor.tabSize": 2
+  },
+  "[typescript]": {
+    "editor.tabSize": 2
+  },
+  // eslint settings
+  "eslint.autoFixOnSave": true,
+  "eslint.alwaysShowStatus": true,
+  // emmet settings
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "workbench.statusBar.feedback.visible": false,
+  // terminal settings
+  "terminal.integrated.rendererType": "canvas",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
+  "terminal.integrated.copyOnSelection": true
+}
