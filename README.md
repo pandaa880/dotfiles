@@ -1,6 +1,8 @@
-# My settings of VSCode, ESLint.
+# dotfiles
 
-I will be updating this in future as per my needs.
+**These are my settings for my text editor & linter.**
+
+Have Fun ♥
 
 ## Enable JSX support for React Development in VSCode.
 
