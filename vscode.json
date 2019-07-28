@@ -1,50 +1,100 @@
 {
-  "workbench.colorTheme": "One Dark Pro",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Monokai Pro",
   "breadcrumbs.enabled": true,
   "zenMode.hideStatusBar": false,
-  // editor settings
-  "editor.fontFamily": "'Operator Mono Light', Inconsolata, monospace",
-  "editor.fontLigatures": true,
-  "editor.fontSize": 16,
-  "editor.formatOnSave": true,
-  "editor.tabSize": 2,
-  // which files to exclude
+
+
   "files.exclude": {
-    "**/.git": true,
+    "**/.git": false,
     "**/.svn": true,
     "**/.hg": true,
     "**/CVS": true,
     "**/.DS_Store": true,
-    "**/node_modules": true
+    "**/node_modules": false
   },
-  // language specific settings
-  "[javascript]": {
-    "editor.tabSize": 2,
-    "editor.formatOnSave": false
-  },
-  "[javascriptreact]": {
-    "editor.tabSize": 2
-  },
-  "[typescriptreact]": {
-    "editor.tabSize": 2
-  },
-  "[typescript]": {
-    "editor.tabSize": 2
-  },
-  // eslint settings
+
+
+  "editor.fontLigatures": true,
+  "editor.fontSize": 15,
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+
+
   "eslint.autoFixOnSave": true,
   "eslint.alwaysShowStatus": true,
-  // emmet settings
+
+
+  "prettier.printWidth": 80,
+  "prettier.requireConfig": true,
+
+
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "workbench.statusBar.feedback.visible": false,
-  // terminal settings
+
+
   "terminal.integrated.rendererType": "canvas",
-  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\bash.exe",
-  "terminal.integrated.lineHeight": 1,
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontFamily": "Roboto Mono for Powerline",
-  "terminal.integrated.copyOnSelection": true
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.copyOnSelection": true,
+  "editor.fontFamily": "Dank Mono, Inconsolata, 'Courier New', monospace",
+  "sync.gist": "41e0b1851071891ff8199fa8fb557a6e",
+  "terminal.external.linuxExec": "iTerm",
+  "terminal.external.osxExec": "iTerm.app",
+  "terminal.integrated.lineHeight": 1.1,
+  "gitlens.defaultDateStyle": "absolute",
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "details": true,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": true
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true,
+      "stashInline": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true,
+      "stash": true
+    }
+  },
+  "explorer.confirmDelete": false,
+  "workbench.sideBar.location": "right",
+  "editor.minimap.enabled": false,
+  "editor.parameterHints.enabled": false,
+  "prettier.trailingComma": "es5",
+  "workbench.iconTheme": "vscode-icons",
+  "window.zoomLevel": 0,
+  "vim.easymotion": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
