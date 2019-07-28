@@ -38,7 +38,7 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontFamily": "Hack Nerd Font",
   "terminal.integrated.copyOnSelection": true,
-  "editor.fontFamily": "Dank Mono, Inconsolata, 'Courier New', monospace",
+  "editor.fontFamily": "Inconsolata, 'Courier New', monospace",
   "sync.gist": "41e0b1851071891ff8199fa8fb557a6e",
   "terminal.external.linuxExec": "iTerm",
   "terminal.external.osxExec": "iTerm.app",
